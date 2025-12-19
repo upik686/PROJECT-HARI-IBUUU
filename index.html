@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Mother's Day Bundaku</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Decorative circles -->
+  <div class="deco-circle"></div>
+  <div class="deco-circle"></div>
+
+  <!-- Floating hearts -->
+  <div class="floating-hearts">
+    <span class="heart" style="left:10%">🌸</span>
+    <span class="heart" style="left:30%">💐</span>
+    <span class="heart" style="left:50%">🌷</span>
+    <span class="heart" style="left:70%">🌺</span>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="one">
+      <h1>Hi 👋 <span>Bundaku tersayang ❤️</span></h1>
+      <p>Hari ini jeni mau bilang sesuatu dari hati…</p>
+    </div>
+
+    <div class="three">
+      <h2>Selamat Hari Ibu 💐</h2>
+    </div>
+
+    <div class="four">
+      <div class="text-box">
+        <p>
+          Tidak semua kasih lahir dari ikatan darah.
+          Ada cinta yang tumbuh dari ketulusan, perhatian, dan doa yang tak pernah lelah.
+          Terima kasih telah menghadirkan rasa hangat dan aman seperti seorang ibu.
+          Doa jeni akan selalu menyertai ibu, hari ini dan seterusnya. 🤍
+        </p>
+        <button class="fake-btn">Kirim Doa ✨</button>
+      </div>
+    </div>
+
+    <div class="six">
+      <img src="img/ib.png" class="profile-picture" alt="Ibu Tercinta">
+      <h3>Happy Mother's Day, Bunda 💖</h3>
+      <p class="wish-text">
+        Terima kasih atas kasih sayang dan perhatian yang selalu hadir dengan tulus.
+        Kehadiran ibu membawa hangat, menenangkan, dan sangat berarti dalam hidup jeni.
+        Semoga Allah selalu menjaga dan melimpahkan kebahagiaan untuk ibu.
+      </p>
+    </div>
+
+  <a href="gallery.html">
+    <button id="showGalleryBtn">📸 Lihat Kenangan</button>
+  </div>
+
+   <section id="gallery" style="display:none;">
+    <h2 style="text-align:center; margin-top:100px;">📸 Gallery Kenangan</h2>
+      <br><br>
+
+
+    <button id="backHome" style="display:block;margin:40px auto;">
+      ⬅ Kembali
+    </button>
+
+  </section>
+
+  <!-- JS Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/script.js"></script>
+  
+    <audio id="bgMusic" loop>
+    <source src="music/ibu.mp3" type="audio/mpeg">
+  </audio>
+  <script src="js/music.js"></script>
+</body>
+</html>

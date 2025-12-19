@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Kenangan Bersama Ibu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/gallery.css">  
+
+</head>
+<body>
+  <!-- Decorative circles -->
+  <div class="deco-circle"></div>
+  <div class="deco-circle"></div>
+
+  <!-- Floating hearts -->
+  <div class="floating-hearts">
+    <span class="heart" style="left:10%; animation-delay: 0s;">🌸</span>
+    <span class="heart" style="left:25%; animation-delay: 2s;">💐</span>
+    <span class="heart" style="left:40%; animation-delay: 4s;">🌺</span>
+    <span class="heart" style="left:55%; animation-delay: 1s;">🌷</span>
+    <span class="heart" style="left:70%; animation-delay: 3s;">🌸</span>
+    <span class="heart" style="left:85%; animation-delay: 5s;">💐</span>
+  </div>
+
+  <!-- Back Button -->
+  <a href="index.html" class="back-btn">← Kembali</a>
+
+  <!-- Header -->
+  <h1> Galeri Kenangan </h1>
+
+  <!-- Gallery Container -->
+  <div class="gallery-container">
+    <div class="gallery" id="gallery">
+      <!-- Images will be loaded here -->
+    </div>
+
+    <!-- Message Section -->
+    <div class="message-section">
+      <div class="message-content">
+        <p class="message-text">
+          Di setiap foto ini tersimpan cerita sederhana yang penuh makna. Tawa kecil, kebersamaan, dan momen-momen yang mungkin terlihat biasa, namun selalu jeni rindukan saat diingat kembali.
+        </p>
+        <p class="message-text">
+          Waktu terus berjalan, namun kenangan ini tetap tinggal. Setiap momen di sini mengingatkan jeni pada kehangatan, perhatian, dan rasa nyaman yang selalu ada. Semua kenangan ini akan selalu jeni simpan di hati.
+        </p>
+        <p class="message-closing">
+          Sekali lagi, <strong>Selamat Hari Ibu</strong> untuk ibuku tercinta 🤍
+          dari anakmu Jeni🤍
+        </p>
+        <div class="heart-decoration">
+          💐 🌸 🌷
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-close" onclick="closeLightbox()">×</span>
+      <span class="lightbox-nav lightbox-prev" onclick="changeImage(-1)">‹</span>
+      <img src="" alt="Lightbox Image" id="lightboxImg">
+      <span class="lightbox-nav lightbox-next" onclick="changeImage(1)">›</span>
+    </div>
+  </div>
+  <script src="js/gallery.js"></script>
+
+    <audio id="bgMusic" loop>
+    <source src="music/ibu.mp3" type="audio/mpeg">
+  </audio>
+  <script src="js/music.js"></script>
+
+</body>
+</html>
